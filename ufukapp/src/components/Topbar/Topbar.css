@@ -1,0 +1,64 @@
+        .top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: black;
+            padding: 1rem;
+        }
+        
+        .logo {
+            font-family: 'Dancing Script';
+            color: white;
+            font-size: 30px;
+        }
+        
+        .menu-content {
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .menu-content a {
+            display: inline-block;
+            text-decoration: none;
+            margin: 5px;
+            color: white;
+            border-bottom: 2px solid transparent;
+            transition: all 100ms ease;
+            padding: 15px;
+            margin-right: 40px;
+            font-size: 20px;
+        }
+        
+        .menu-content a:hover {
+            border-bottom: 2px solid white;
+        }
+        
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .hamburger:hover {
+            cursor: pointer;
+        }
+        
+        .hamburger span {
+            background-color: white;
+            margin-bottom: 10px;
+            width: 40px;
+            height: 3px;
+        }
+        
+        @media screen and (max-width:1220px) {
+            .links {
+                display: none;
+            }
+            .hamburger {
+                display: flex;
+            }
+        }
