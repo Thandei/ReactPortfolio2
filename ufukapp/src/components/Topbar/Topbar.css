@@ -1,3 +1,7 @@
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
         .top {
             position: fixed;
             top: 0;
@@ -52,6 +56,37 @@
             margin-bottom: 10px;
             width: 40px;
             height: 3px;
+        }
+        
+        .bar {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 300ms ease;
+        }
+        
+        .bar-links {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .bar-links a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            padding: 1rem;
+            margin-bottom: 1.4rem;
+            font-size: 45px;
+        }
+        
+        .rotate {
+            transform: rotate(45deg);
         }
         
         @media screen and (max-width:1220px) {
