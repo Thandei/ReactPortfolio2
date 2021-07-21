@@ -1,0 +1,50 @@
+.Works {
+    height: calc(100vh - 80px);
+    padding-top: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worksContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 4px dotted white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.boxWriting {
+    border-right: 3px solid white;
+    padding: 30px;
+}
+
+.githubBox {
+    position: relative;
+    background-color: black;
+    border: 4px dotted white;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin-left: 40px;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: white;
+    transition: width 500ms ease;
+}
+
+.githubBox:hover {
+    cursor: pointer;
+}
+
+.githubBox:hover .bg {
+    width: 100%;
+}

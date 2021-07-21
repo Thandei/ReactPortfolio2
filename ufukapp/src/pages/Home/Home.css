@@ -1,0 +1,28 @@
+.home {
+    height: calc(100vh - 80px);
+    background-color: black;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContent {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.homeTitle {
+    font-size: 25px;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.homeSubtitle {
+    font-size: 20px;
+}
+
+.homeDownSign {
+    margin-top: 20px;
+}

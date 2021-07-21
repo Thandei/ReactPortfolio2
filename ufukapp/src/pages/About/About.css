@@ -1,0 +1,36 @@
+.About {
+    background-color: black;
+    height: calc(100vh - 80px);
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContent {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperP {
+    width: 450px;
+    text-align: center;
+    line-height: 30px;
+    padding: 40px;
+    border: 3px dotted white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.downIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin:not(:last-child) {
+    margin-right: 20px;
+}

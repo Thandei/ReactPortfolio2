@@ -21,10 +21,10 @@ export default function Topbar() {
                     Ufuk Yılmazlar
                 </div>
                 <div className="links">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Works</a> 
-                    <a href="">Contact</a>
+                    <a href="/">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/works">Works</a> 
+                    <a href="/">Contact</a>
                 </div> 
                 <div onClick={handleClick} className="hamburger">
                      <span></span>
@@ -39,10 +39,10 @@ export default function Topbar() {
         <div style={{left: barOpen ? 0 : -2000+"px"}} className="bar">
         <div className="bar-content">
             <div className="bar-links">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Works</a> 
-                <a href="">Contact</a>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/works">Works</a> 
+                <a href="/">Contact</a>
                  
                 <a href="" className="rotate" onClick={(e)=>handleClick(e)}>+</a>
              </div> 
